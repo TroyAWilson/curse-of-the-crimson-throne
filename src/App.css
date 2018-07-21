@@ -7,6 +7,7 @@ body{
   padding:15px;
   height: 100%;
   text-align: center;
+  transition: .5s ease-in-out;
   border: 2px solid black;
   font-family: 'Merienda', cursive;
 }
@@ -36,10 +37,16 @@ body{
   to { transform: rotate(360deg); }
 }
 .play-button{
-  background-color: crimson;
+  border:none;
+  background-color: mistyrose;
   padding: 10px 25px;
   margin: 5px;
   border-radius: 5px;
   font-size: 1.2em;
   cursor: pointer;
+  transition: .5s ease-out;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
