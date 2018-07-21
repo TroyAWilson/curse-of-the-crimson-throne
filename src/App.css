@@ -1,0 +1,45 @@
+body{
+  background-color: crimson;
+}
+.App {
+  background-color: white;
+  margin: 15%;
+  padding:15px;
+  height: 100%;
+  text-align: center;
+  border: 2px solid black;
+  font-family: 'Merienda', cursive;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: crimson;
+  height: 50px;
+  padding: 20px;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.play-button{
+  background-color: crimson;
+  padding: 10px 25px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
